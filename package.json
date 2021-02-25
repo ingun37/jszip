@@ -1,8 +1,8 @@
 {
-  "name": "jszip",
+  "name": "jszip-immediate",
   "version": "3.6.0",
   "author": "Stuart Knightley <stuart@stuartk.com>",
-  "description": "Create, read and edit .zip files with JavaScript http://stuartk.com/jszip",
+  "description": "Fork from JSZip. Use yuzujs/setimmediate instead of set-immediate-shim",
   "scripts": {
     "test": "npm run test-node && npm run test-browser",
     "test-node": "qunit --require ./test/helpers/test-utils.js --require ./test/helpers/node-test-utils.js test/asserts/",
@@ -27,7 +27,7 @@
   "types": "./index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Stuk/jszip.git"
+    "url": "https://github.com/ingun37/jszip"
   },
   "keywords": [
     "zip",
