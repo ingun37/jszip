@@ -1,6 +1,6 @@
 {
   "name": "jszip-immediate",
-  "version": "3.6.0",
+  "version": "3.7.0",
   "author": "Stuart Knightley <stuart@stuartk.com>",
   "description": "Fork from JSZip. Use yuzujs/setimmediate instead of set-immediate-shim",
   "scripts": {
